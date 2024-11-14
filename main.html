@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie App</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>🎬 Movie App</h1>
+    <div id="search-wrapper">
+      <input type="text" id="search-bar" placeholder="Search for movies...">
+    </div>
+    <div id="filters">
+      <select id="genre-filter">
+        <option value="">All Genres</option>
+      </select>
+      <select id="rating-filter">
+        <option value="">All Ratings</option>
+        <option value="7">7+</option>
+        <option value="8">8+</option>
+        <option value="9">9+</option>
+      </select>
+    </div>
+    <button id="watchlist-button">My Watchlist</button>
+  </header>
+  
+  <main>
+    <div id="movies-grid"></div>
+  </main>
+  
+  <footer>
+    <p>© 2024 Movie App. All rights reserved.</p>
+  </footer>
+
+  <div id="movie-modal">
+    <div id="movie-details">
+      <button id="close-modal">X</button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
